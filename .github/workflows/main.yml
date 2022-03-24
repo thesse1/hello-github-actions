@@ -10,3 +10,7 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Thomas"
+      - uses: actions/upload-artifact
+        with:
+          name: first-artifact
+          path: artifact/
